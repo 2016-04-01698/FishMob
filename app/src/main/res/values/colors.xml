@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Start_color">#0C1D35</color>
+    <color name="End_color">#2B588A</color>
+    <color name="first_call">#270078</color>
+    <color name="lastCall">#9b6bff</color>
+    <color name="call">#6014ff</color>
+    <color name="lastone">#003a8a</color>
+    <color name="lastonelast">#9b6bff</color>
+</resources>

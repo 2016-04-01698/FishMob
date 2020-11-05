@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "456053905467",
+    "firebase_url": "https://fishmob-d4e4f.firebaseio.com",
+    "project_id": "fishmob-d4e4f",
+    "storage_bucket": "fishmob-d4e4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456053905467:android:6fcf1a01cab99cd209241e",
+        "android_client_info": {
+          "package_name": "com.example.fishmob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456053905467-ido8l01q7tlrvqov1e47uheib6uocnv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKmVc9V6R9YJDpJWQEtMhN6F6ImzTiiE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456053905467-ido8l01q7tlrvqov1e47uheib6uocnv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

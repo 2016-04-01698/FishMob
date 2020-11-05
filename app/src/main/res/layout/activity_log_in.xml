@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity"
+    android:background="@drawable/gradientbackground"
+    >
+     <ImageView
+         android:id="@+id/imageviewlog"
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/log_in_icon"
+         android:layout_marginTop="60dp"
+         android:transitionName="log_in"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageviewlog"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:transitionName="user_name">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:transitionName="pwd_name"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:layout_gravity="right"
+            android:elevation="0dp"
+            android:text="Forgot Password?"
+            android:transitionName="forgot_name"
+            />
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/password"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:text="Log in"
+            android:textSize="26sp"
+            android:background="#0C1D35"
+            android:textColor="#05ff9a"
+            android:transitionName="btnlog_name"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="-0R-"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:transitionName="or_name"
+            />
+
+        <Button
+            android:id="@+id/btn_Sign_Up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#00000000"
+            android:text="Don't have an Account?Sign Up"
+            android:textSize="19sp"
+            android:transitionName="signUp_name"/>
+    </LinearLayout>
+
+</RelativeLayout>

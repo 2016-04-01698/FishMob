@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">FishMOb</string>
+    <string name="Fish_Seller">Button</string>
+    <string name="FisherMan">Button</string>
+    <string name="customer">Customer</string>
+    <string name="fish_keeper">Fish Keeper</string>
+    <string name="fish_seller">Fish Seller</string>
+    <string name="search">Search..</string>
+    <string name="proceed">Proceed</string>
+    <string name="fish_sellerui">Fish seller</string>
+    <string name="description">Mpendwa Muuzaji Samaki, karibu katika ukurasa huu. uweze kutangaza na kuuza Samaki walio bora na aina tofauti tofauti. Pia utaweza kuunganishwa moja kwa moja na Mteja kwa makubaliano zaidi.</string>
+    <string name="image">TODO</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="registration_page">registration page</string>
+    <string name="title_activity_fish_seller_page">FishSellerPage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcomeMessage">Welcome</string>
+    <string name="yourAccountname">Enter your Email account</string>
+    <string name="enterYournames">Enter your full names</string>
+    <string name="startmessage">Sign Up to starts your Business</string>
+    <string name="phoneNumber">Enter phone number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signInbutton">have an Account? Sign In</string>
+    <string name="register">Register</string>
+    <string name="meshack">Meshack</string>
+    <string name="_255753563434">+255753563434</string>
+    <string name="todo">TODO</string>
+    <string name="buttoncall">button</string>
+</resources>
